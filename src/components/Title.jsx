@@ -5,7 +5,11 @@ class Title extends React.Component {
   render() {
     const { headline } = this.props;
     return (
-      <h2>{headline}</h2>
+      <div className="flex justify-center">
+        <h2 className="flex justify-center mt-8 border p-2 rounded">
+          {headline}
+        </h2>
+      </div>
     );
   }
 }

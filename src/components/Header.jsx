@@ -3,8 +3,8 @@ import React from 'react';
 class Header extends React.Component {
   render() {
     return (
-      <header>
-        <h1>Sistema Solar</h1>
+      <header className="flex justify-center m-5">
+        <h1 className="text-5xl font-bold">Solar System</h1>
       </header>
     );
   }
